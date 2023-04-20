@@ -18,8 +18,8 @@
 
 
 .paragraph {
-    /* height: 200px; */
-    /* width: 200px; */
+    height: 200px;
+    width: 200px;
     border: 2px solid blue;
     overflow: scroll;
     color: blue;
@@ -27,8 +27,8 @@
 }
 
 .job-experiance {
-    /* height: 90px; */
-    /* width: 100px; */
+    height: 90px;
+    width: 300px;
     border: 2px solid red;
     overflow: hidden;
     color: red;
@@ -72,7 +72,7 @@ body {
 
 .card-container {
     background-color: white;
-    width: 92%;
+    /* width: 92%; */
     border-radius: 24px;
     /* margin: 50px;  */
     border: 3px solid blueviolet;
@@ -91,7 +91,7 @@ body {
 
 .image {
     width: 100%;
-    max-width: 780px;
+    max-width: 700px;
 }
 
 .card-body {
