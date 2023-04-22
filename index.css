@@ -18,13 +18,13 @@
 
 
 .paragraph {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 400px;
     border: 2px solid blue;
-    overflow: scroll;
+    overflow-x: scroll;
     color: blue;
-
 }
+
 
 .job-experiance {
     height: 90px;
@@ -33,6 +33,7 @@
     overflow: hidden;
     color: red;
     /* overflow: scroll; */
+    /* the overflow content will be clipped and rest of the content will be invisible. */
 }
 
 .intrests {
@@ -46,6 +47,7 @@
 .minmax {
     min-width: 30px;
     width: 72px;
+    max-width: 150px;
     /* overflow: auto; */
     min-height: 900px;
     max-height: 1200px;
@@ -72,7 +74,7 @@ body {
 
 .card-container {
     background-color: white;
-    width: 92%;
+    width: 60%;
     border-radius: 24px;
     border: 3px solid grey;
     margin: auto;
@@ -111,8 +113,96 @@ body {
     background-color: bisque;
     border-radius: 20px;
     /* border-width: 0px; */
-    border: none;
+    border: 3px solid rgb(171, 168, 168);
     padding: 12px;
     font-size: 16px;
     font-weight: bolder;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.boxes-container {
+    height: 100vh;
+    border: 10px solid goldenrod;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px;
+    align-items: flex-end;
+}
+
+.box {
+
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.box-1 {
+    background-color: #1abc9c;
+}
+
+.box-2 {
+    background-color: #e60ab6;
+}
+
+.box-3 {
+    background-color: #065af5;
+}
+
+.box-4 {
+    background-color: #7b0c2d;
+}
+
+.buttons-container {
+    border: 10px solid rgba(20, 231, 34, 0.224);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+.backg-container-musicworld {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/music-section-bg.png");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-heading {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descr-abt-music {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.outline-button-lm {
+    color: aliceblue;
+    background-color: #061634;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 9px;
+    width: 80px;
+}
+
+.button-gs {
+    border-radius: 20px;
+    background-color: bisque;
+    border: none;
+    font-size: 10px;
+    padding: 10px;
+    width: 80px;
 }
