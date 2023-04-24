@@ -128,9 +128,10 @@ body {
     border: 10px solid goldenrod;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding: 5px;
-    align-items: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .box {
@@ -138,7 +139,7 @@ body {
     color: white;
     padding: 10px;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .box-1 {
@@ -154,8 +155,134 @@ body {
 }
 
 .box-4 {
+    background-color: #d3e10c;
+}
+
+.box-5 {
     background-color: #7b0c2d;
 }
+
+.box-6 {
+    background-color: #58d13c;
+}
+
+.box-7 {
+    background-color: #3f1c1c;
+}
+
+.box-8 {
+    background-color: #cead1b;
+}
+
+.box-9 {
+    background-color: #070313;
+}
+
+.box-10 {
+    background-color: #d7cccf;
+}
+
+.box-11 {
+    background-color: #1699e0b6;
+}
+
+.box-12 {
+    background-color: #dda2b2;
+}
+
+
+.bg-container-frntEnd-dev {
+    background-color: #065af5;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.l-p-c-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 800px;
+
+}
+
+
+.learning-path-cards {
+    background-color: white;
+    height: 50px;
+    width: 210px;
+    border-radius: 10px;
+    /* padding: 10px; */
+    margin-bottom: 10px;
+    margin-left: 5px;
+    text-align: center;
+    padding: 12px;
+}
+
+.frntend-heading {
+    color: white;
+}
+
+.frntend-description {
+    color: white;
+    text-align: center;
+}
+
+.border-green {
+    border-left: 8px solid #58d13c;
+}
+
+.border-skyblue {
+    border-left: 8px solid #0ed3c9;
+}
+
+.border-orange {
+    border-left: 8px solid #ca560e;
+}
+
+.border-greenyellow {
+    border-left: 8px solid #c4da1d;
+}
+
+.border-violet {
+    border-left: 8px solid violet;
+}
+
+.border-pink {
+    border-left: 8px solid pink;
+}
+
+.border-black {
+    border-left: 8px solid black;
+}
+
+.border-red {
+    border-left: 8px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .buttons-container {
     border: 10px solid rgba(20, 231, 34, 0.224);
